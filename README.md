@@ -1,9 +1,3 @@
-# Treino_numeros_lotafacil
-Este treino envolve desde a capitação , limpeza e transformação dos Dados, para dados avaliaveis 
-Link para rodar no Colab, por conta de melhor uso e processamento
-# https://colab.research.google.com/drive/13tbUHCLSZ1dwqgPgAKOZ2g0vdtubR1Kl?usp=sharing
-
-
 # Análise e Previsão de Números Sorteados da Lotofácil
 # 📋 Visão Geral
 Este projeto utiliza técnicas de aprendizado de máquina para analisar e prever números sorteados na Lotofácil, uma das loterias mais populares do Brasil. A Lotofácil consiste em sortear 15 números de um total de 25 possíveis (de 1 a 25), e o objetivo deste projeto é identificar padrões nos sorteios históricos e gerar previsões de combinações futuras com base em probabilidades.
@@ -68,3 +62,9 @@ Padrões Temporais:
 Informações como: "Número 5 aparece a cada 3.2 sorteios em média."
 Heatmap de Frequência:
 Um heatmap visualizando a frequência de cada número ao longo dos sorteios.
+
+
+# Treino_numeros_lotafacil
+Este treino envolve desde a capitação , limpeza e transformação dos Dados, para dados avaliaveis 
+Link para rodar no Colab, por conta de melhor uso e processamento
+# https://colab.research.google.com/drive/13tbUHCLSZ1dwqgPgAKOZ2g0vdtubR1Kl?usp=sharing
