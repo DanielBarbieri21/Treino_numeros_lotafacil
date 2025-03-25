@@ -28,10 +28,10 @@ Nota: O arquivo sequencias_formatadas.txt não está incluído neste repositóri
 
 # 🛠️ Estrutura do Projeto
 Arquivos
-app.py: Código principal do projeto, contendo toda a lógica de carregamento de dados, treinamento do modelo, geração de previsões e interface com Streamlit.
-sequencias_formatadas.txt: Arquivo de entrada com os dados históricos dos sorteios da Lotofácil (não incluído no repositório; deve ser fornecido pelo usuário).
-README.md: Este arquivo, contendo a documentação do projeto.
-Funcionalidades
+# app.py: Código principal do projeto, contendo toda a lógica de carregamento de dados, treinamento do modelo, geração de previsões e interface com Streamlit.
+# sequencias_formatadas.txt: Arquivo de entrada com os dados históricos dos sorteios da Lotofácil (não incluído no repositório; deve ser fornecido pelo usuário).
+# README.md: Este arquivo, contendo a documentação do projeto.
+# Funcionalidades
 Carregamento e Pré-processamento de Dados:
 Os sorteios são lidos do arquivo sequencias_formatadas.txt.
 Cada sorteio é transformado em um vetor de features, incluindo:
@@ -43,11 +43,11 @@ A otimização de hiperparâmetros é feita com GridSearchCV, testando diferente
 Análise Estatística:
 Cálculo de estatísticas como média, mediana, moda e frequência de ocorrência de cada número nos sorteios de treinamento.
 Visualizações gráficas (histogramas) para cada métrica.
-Geração de Previsões:
+# Geração de Previsões:
 O modelo gera 10 variações de combinações de 15 números, ordenadas por probabilidade decrescente.
 As probabilidades de cada número nas combinações são exibidas em gráficos de barras.
 Padrões Temporais:
-Análise da frequência com que cada número aparece ao longo dos sorteios, calculando o intervalo médio entre aparições.
+# Análise da frequência com que cada número aparece ao longo dos sorteios, calculando o intervalo médio entre aparições.
 Visualizações:
 Gráficos de média, mediana, moda e frequência dos números.
 Gráficos de probabilidade para cada variação prevista.
